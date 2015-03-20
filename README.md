@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Skeyelab/Take-N-Tickets.png?label=ready&title=Ready)](https://waffle.io/Skeyelab/Take-N-Tickets)
 ![Image](<http://cl.ly/image/2C323u2R1o24/Image%202015-03-20%20at%202.53.19%20PM.png>)
 
 Take next X Tickets
