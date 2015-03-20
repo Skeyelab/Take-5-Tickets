@@ -14,6 +14,8 @@ number of tickets to the signed in agent.
 
 -   Quantity (Int) - The number of tickets assigned when clicking “Go!"
 
+-   Pages (Int) - To help prevent agents from taking tickets from each other, the app will pull tickets from a random page number in the view. Pages may be 1 thru this setting. For example, if you enter 3, the agent will get 5 tickets.  All 5 will be from either page 1, page 2 or page 3.
+
 -   Menu Config (JSON) - Configures the menu.  Use the format below.
 
 ```json
