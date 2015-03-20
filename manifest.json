@@ -3,43 +3,48 @@
     "name": "Zendesk",
     "email": "support@zendesk.com"
   },
-
   "location": "ticket_sidebar",
   "defaultLocale": "en",
   "private": false,
   "singleInstall": true,
-  "frameworkVersion": "0.5",
+  "frameworkVersion": "1.0",
+  "version": "1",
   "parameters": [
-  	{
-  		"name": "quantity",
-  		"type": "number",
-  		"required": true,
-  		"default": 5
-  	},
-  	{
-  		"name": "view",
-  		"type": "number",
-  		"required": true
-  	},
-	{
-  		"name": "view2",
-  		"type": "number",
-  		"required": false
-  	},
-		{
-  		"name": "view3",
-  		"type": "number",
-  		"required": false
-  	},
-		{
-  		"name": "view4",
-  		"type": "number",
-  		"required": false
-  	},
-		{
-  		"name": "view5",
-  		"type": "number",
-  		"required": false
-  	}
+    {
+      "name": "quantity",
+      "type": "number",
+      "required": true,
+      "default": 5
+    },
+    {
+      "name": "view",
+      "type": "number",
+      "required": true
+    },
+    {
+      "name": "view2",
+      "type": "number",
+      "required": false
+    },
+    {
+      "name": "view3",
+      "type": "number",
+      "required": false
+    },
+    {
+      "name": "view4",
+      "type": "number",
+      "required": false
+    },
+    {
+      "name": "view5",
+      "type": "number",
+      "required": false
+    },
+    {
+      "name": "menu_config",
+      "type": "text",
+      "required": true
+    }    
   ]
 }

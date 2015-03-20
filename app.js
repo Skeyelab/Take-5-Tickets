@@ -86,6 +86,23 @@
       this.numberOfTickets = this.setting('quantity');
       // this.group = this.setting('group');
       this.showButton();
+
+      menu_config = JSON.parse(this.setting('menu_config'));
+
+      this.ticket().tags().add("blah");
+
+      console.log(this.ticket().tags());
+
+
+var result = "";
+  for (var p in menu_config.views) {
+    if( menu_config.views.hasOwnProperty(p) ) {
+      result += p + " , " + menu_config.views[p] + "\n";
+    }
+  }
+
+console.log(result);
+
     },
     showButton: function(){
       this.switchTo('next_button', {
