@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/Skeyelab/Take-5-Tickets/compare/v1.0...HEAD)
 
+**Implemented enhancements:**
+
+- Drop down instead of buttons [\#5](https://github.com/Skeyelab/Take-5-Tickets/issues/5)
+
 **Merged pull requests:**
 
 - Adding drop down [\#3](https://github.com/Skeyelab/Take-5-Tickets/pull/3) ([Skeyelab](https://github.com/Skeyelab))
