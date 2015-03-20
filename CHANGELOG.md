@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/Skeyelab/Take-5-Tickets/tree/HEAD)
+
+[Full Changelog](https://github.com/Skeyelab/Take-5-Tickets/compare/v1.0...HEAD)
+
+**Merged pull requests:**
+
+- Adding drop down [\#3](https://github.com/Skeyelab/Take-5-Tickets/pull/3) ([Skeyelab](https://github.com/Skeyelab))
+
 ## [v1.0](https://github.com/Skeyelab/Take-5-Tickets/tree/v1.0) (2015-03-20)
 
 
