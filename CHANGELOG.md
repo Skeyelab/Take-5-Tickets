@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/Skeyelab/Take-N-Tickets/compare/v2.0...HEAD)
 
+**Closed issues:**
+
+- Take 5 is not pulling the oldest ticket [\#2](https://github.com/Skeyelab/Take-N-Tickets/issues/2)
+
 **Merged pull requests:**
 
 - waffle.io Badge [\#6](https://github.com/Skeyelab/Take-N-Tickets/pull/6) ([waffle-iron](https://github.com/waffle-iron))
