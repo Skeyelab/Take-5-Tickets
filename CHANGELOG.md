@@ -1,8 +1,8 @@
 # Change Log
 
-## [Unreleased](https://github.com/Skeyelab/Take-N-Tickets/tree/HEAD)
+## [v2.1](https://github.com/Skeyelab/Take-N-Tickets/tree/v2.1) (2015-03-20)
 
-[Full Changelog](https://github.com/Skeyelab/Take-N-Tickets/compare/v2.0...HEAD)
+[Full Changelog](https://github.com/Skeyelab/Take-N-Tickets/compare/v2.0...v2.1)
 
 **Closed issues:**
 
