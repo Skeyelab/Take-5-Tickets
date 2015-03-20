@@ -1,8 +1,8 @@
 # Change Log
 
-## [Unreleased](https://github.com/Skeyelab/Take-5-Tickets/tree/HEAD)
+## [v2.0](https://github.com/Skeyelab/Take-5-Tickets/tree/v2.0) (2015-03-20)
 
-[Full Changelog](https://github.com/Skeyelab/Take-5-Tickets/compare/v1.0...HEAD)
+[Full Changelog](https://github.com/Skeyelab/Take-5-Tickets/compare/v1.0...v2.0)
 
 **Implemented enhancements:**
 
