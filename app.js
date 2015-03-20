@@ -85,9 +85,10 @@
 	this.view5 = this.setting('view5');
       this.numberOfTickets = this.setting('quantity');
       // this.group = this.setting('group');
-      this.showForm();
 
       menu_config = JSON.parse(this.setting('menu_config'));
+      this.showForm();
+
 console.log(menu_config);
       // this.ticket().tags().add("blah");
       //
