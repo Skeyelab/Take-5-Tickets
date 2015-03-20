@@ -1,0 +1,4 @@
+<div class="loading">
+	<p>{{message}}</p>
+	{{spinner "dotted"}}
+</div>
