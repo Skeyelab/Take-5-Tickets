@@ -40,7 +40,6 @@
       }
     },
 
-
     events: {
       'app.activated': 'init',
       'click .takeNextButton': 'requestTickets',
