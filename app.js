@@ -85,14 +85,13 @@
 	this.view5 = this.setting('view5');
       this.numberOfTickets = this.setting('quantity');
       // this.group = this.setting('group');
-      this.showButton();
+      this.showForm();
 
       menu_config = JSON.parse(this.setting('menu_config'));
-
-      this.ticket().tags().add("blah");
-
-      console.log(this.ticket().tags());
-
+console.log(menu_config);
+      // this.ticket().tags().add("blah");
+      //
+      // console.log(this.ticket().tags());
 
 var result = "";
   for (var p in menu_config.views) {
@@ -103,6 +102,9 @@ var result = "";
 
 console.log(result);
 
+    },
+    showForm: function(){
+      this.switchTo('dynamic_form', {number: this.numberOfTickets, menu_config: menu_config});
     },
     showButton: function(){
       this.switchTo('next_button', {

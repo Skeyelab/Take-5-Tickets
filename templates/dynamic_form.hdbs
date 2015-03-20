@@ -1,6 +1,7 @@
+<p class="phead"><b>I REALLY WANT {{number}} TICKETS FROM:</b></p><br>
+
 <select>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
+  {{#each menu_config.views}}
+  <option value="{{this.view}}">{{this.label}}</option>
+  {{/each}}
 </select>
