@@ -12,7 +12,7 @@
     requests: {
       fetchTickets: function(view) {
         return {
-          url: '/api/v2/views/' + view + '/execute.json?page=' + (Math.floor(Math.random() * 2) + 1)
+          url: '/api/v2/views/' + view + '/execute.json?page=' + (Math.floor(Math.random() * this.setting('pages')) + 1)
             //url: '/api/v2/search.json?query=assignee:none+status<solved+group:' + group
         };
       },
@@ -54,6 +54,7 @@
       // this.group = this.setting('group');
 
       this.menu_config = JSON.parse(this.setting('menu_config'));
+      console.log(this.setting('pages'));
       this.showForm();
     },
     showForm: function() {

@@ -20,6 +20,13 @@
       "name": "menu_config",
       "type": "text",
       "required": true
+    },
+    {
+      "name": "pages",
+      "type": "number",
+      "required": true,
+      "default": 2
     }
+
   ]
 }
