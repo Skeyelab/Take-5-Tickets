@@ -1,7 +1,10 @@
 <p class="phead"><b>I REALLY WANT {{number}} TICKETS FROM:</b></p><br>
-
-<select>
+<form>
+<select class="viewSelect">
   {{#each menu_config.views}}
   <option value="{{this.view}}">{{this.label}}</option>
   {{/each}}
 </select>
+</form>
+<br/>
+<button class="goButton btn">GO!</button>

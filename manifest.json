@@ -17,34 +17,9 @@
       "default": 5
     },
     {
-      "name": "view",
-      "type": "number",
-      "required": true
-    },
-    {
-      "name": "view2",
-      "type": "number",
-      "required": false
-    },
-    {
-      "name": "view3",
-      "type": "number",
-      "required": false
-    },
-    {
-      "name": "view4",
-      "type": "number",
-      "required": false
-    },
-    {
-      "name": "view5",
-      "type": "number",
-      "required": false
-    },
-    {
       "name": "menu_config",
       "type": "text",
       "required": true
-    }    
+    }
   ]
 }

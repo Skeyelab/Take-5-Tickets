@@ -1,8 +1,2 @@
 ---
-  view: 23046703
-  view2: "UK"
-  view3: "2"
-  view4: "2"
-  view5: "2"
-  number: 5
   menu_config: '{"views":[{"label":"Unassigned Fresh Tix","view":45959723},{"label":"Unassigned BBQ","view":46327813}]}'
