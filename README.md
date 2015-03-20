@@ -14,6 +14,19 @@ number of tickets to the signed in agent.
 
 -   Menu Config (JSON) - Configures the menu.  Use the format below.
 
-```json {   "views": [ {   "label": "Unassigned Fresh Tix",   "view": 45959723}, {   "label": "Unassigned BBQ",   "view": 46327813 }   ] }```
+```json
+{
+  "views": [
+    {
+      "label": "Unassigned Fresh Tix",
+      "view": 45959723
+    },
+    {
+      "label": "Unassigned BBQ",
+      "view": 46327813
+    }
+  ]
+}
+```
 
 ### [Changelog](https://github.com/Skeyelab/Take-5-Tickets/blob/master/CHANGELOG.md)
