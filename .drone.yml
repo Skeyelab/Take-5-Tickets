@@ -1,8 +1,5 @@
-image: ruby:2.0.0
+image: ubuntu
 script:
 - echo hello world
 - cd /var/cache/drone/src/github.com/Skeyelab/Take-N-Tickets
 - pwd
-- gem install zendesk_apps_tools
-- sudo apt-get install libv8-dev
-- zat package
