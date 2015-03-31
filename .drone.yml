@@ -1,4 +1,4 @@
-image: dockerfile/nginx
+image: dockerfile/ruby:2.0.0
 script:
 - echo hello world
 - cd /var/cache/drone/src/github.com/Skeyelab/Take-N-Tickets
