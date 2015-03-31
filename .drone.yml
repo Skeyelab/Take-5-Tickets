@@ -4,4 +4,5 @@ script:
 - cd /var/cache/drone/src/github.com/Skeyelab/Take-N-Tickets
 - pwd
 - gem install zendesk_apps_tools
+- sudo apt-get install libv8-dev
 - zat package
